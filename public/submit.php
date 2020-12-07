@@ -26,9 +26,6 @@ $headers = "From:" . $email;
 //message length
 $messageLength = strlen($message);
 
-var_dump($emailMessage);
-die();
-
 //connection
 $connection = new Dbh;
 $startConnection = $connection->connect();
